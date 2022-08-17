@@ -1,0 +1,22 @@
+.postdetailp0{
+    flex:5
+}
+.postdetailp1{
+    flex:3
+}
+.topicitem{
+display: flex;
+gap:10px;
+align-items: center;
+cursor: pointer;
+
+}
+.topic{
+    color:#3d78b7
+}
+.selectorcontainer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+

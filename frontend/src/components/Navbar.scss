@@ -1,0 +1,115 @@
+.p1{
+    display: flex;
+    justify-content: space-between;
+    padding:0px 20px;
+    background-color: white;
+    align-items: center;
+    max-width: 1024px;
+    width: 100%;
+}
+.p2{
+    display: flex;
+    gap:20px
+}
+.homeIcon{
+    display: flex;
+    align-items: center;
+    gap:10px
+}
+.logo{
+    font-size: 24px;
+    font-weight: 700;
+    color:#b92b27;
+}
+.p3{
+    display: flex;
+    gap:30px
+    
+}
+.p4{
+    display: flex;
+    gap:10px
+    
+}
+.inputwrapper{
+    border: 0.5px solid grey;
+    display: flex;
+    gap:10px;
+    align-items: center;
+    border-radius: 5px;
+    padding: 5px 20px;
+    width: 35vw;
+}
+.input{
+    border: none;
+    background-color:white;
+    width: 100%;
+
+}
+.buttonwrapper{
+    display: flex;
+    gap:20px
+
+}
+.type1{
+    font-size: medium;
+    padding:5px 30px;
+    border: 1px solid #0a95ff;
+    background-color: white;
+    border-radius: 30px;
+    font-weight: 600;
+    color:#0a95ff
+}
+.type3{
+    font-size: medium;
+    padding:5px 30px;
+    border: 1px solid #0a95ff;
+    background-color: #0a95ff;
+    border-radius: 30px;
+    font-weight: 600;
+    color:white
+}
+
+input:focus{
+    outline: none;
+}
+.inputwrapperfocus{
+    border: 0.5px solid #0a95ff;
+    display: flex;
+    gap:10px;
+    align-items: center;
+    border-radius: 5px;
+    padding: 5px 20px;
+    width: 35vw;
+}
+
+.inputwrapper:hover{
+    border: 0.5px solid #0a95ff;
+}
+.iconitem{
+    border-radius: 4px;
+    font-size: 30px;
+    padding:10px;
+    cursor: pointer;
+}
+.iconitem:hover{
+    background-color: #e5e5e5;
+}
+.p0{
+    justify-content: center;
+    display: flex;
+}
+
+.iconitemselected{
+ 
+    font-size: 30px;
+    padding:10px;
+    cursor: pointer;
+    color: brown;
+    border-bottom: 4px solid brown;
+}
+.popupactionbar{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}

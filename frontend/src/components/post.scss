@@ -1,0 +1,88 @@
+.postp0{
+    background-color: white;
+    border-radius: 5px;
+
+    margin-bottom: 25px;
+}
+.postp1{
+    display: flex;
+    gap:10px;
+    padding: 10px;
+}
+.useravatar{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+.span1{
+    font-size:small;
+}
+.username{
+    display: flex;
+    gap:20px;
+    font-weight: 700;
+}
+.followbutton{
+    color: #437fff;
+    cursor: pointer;
+}
+.postpicture{
+    width: 100%;
+}
+.postp5{
+    padding: 10px;
+}
+.content{
+   max-height: 70px;
+   overflow: hidden;
+   margin-top: 20px;
+}
+.content>img{
+    display: none;
+}
+.actionbar{
+    display: flex;
+    gap:10px;
+    padding: 10px;
+}
+.actionitem{
+    display: flex;
+    gap:5px;
+    padding: 5px 15px;
+    border-radius: 4px;
+    align-items: center;
+    cursor: pointer;
+}
+.actionitem:hover{
+    background-color: #e5e5e5;
+}
+.commentbar{
+    padding: 10px;
+    display: flex;
+    gap:15px;
+    background-color: #f7f7f8
+}
+.inputcontainer{
+    background-color: white;
+    height: 40px;
+    width: 100%;
+
+    
+}
+.input1{
+    border: none;
+    background-color: white;
+    height: 100%;
+    font-size: large;
+}
+.commentbutton{
+    padding: 5px 15px;
+    color:white;
+    background-color: #437fff;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+}
+.disabled{
+    display: none;
+}

@@ -1,0 +1,104 @@
+.accountp0{
+    display: flex;
+    justify-content: center;
+}
+.accountp1{
+    width: 100%;
+    max-width: 1024px;
+    display: flex;
+    gap:20px
+}
+.accountp2{
+    flex:5;
+}
+.accountuseravatar{
+    display: flex;
+    gap:20px;
+   
+    align-items: center;
+    padding-top: 30px;
+}
+.accountimage{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.accountdiscription{
+    display: flex;
+flex-direction: column;
+gap:10px
+}
+.writediscription{
+    border: none;
+    padding: 5px 10px;
+    width: fit-content;
+    display: flex;
+    font-size: 14px;
+    gap:5px;
+    background-color:#3f51b5;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+    align-items: center;
+}
+.accountactionbar{
+    padding-top: 50px;
+    width: 100%;
+    
+}
+.accountactionselector
+{
+    display: flex;
+    gap:20px;
+
+    
+}
+.accountactionitem{
+    padding: 5px 10px;
+    color:#717171;
+    border-radius: 4px;
+}
+
+.accountactionitem:hover{
+    background-color: #e5e5e5;
+}
+
+.accountactionitemselected{
+    color:brown;
+    padding: 5px 10px;
+    border-bottom: 3px solid brown;
+}
+
+.usercomment{
+    display: flex;
+    gap:20px;
+    width: 100%;
+    margin-top: 20px;
+}
+.usercommentimage{
+    width: 100px;
+    height: 100px;
+}
+.accountp4{
+    
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+    
+}
+.deletebuttonwrapper{
+    display: flex;
+    justify-content: right;
+
+}
+.accountcommentbar{
+    display: flex;
+    flex-direction: column;
+    gap:20px
+}
+.placeholder{
+    flex:2
+}
