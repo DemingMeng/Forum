@@ -181,7 +181,7 @@ class Navbar extends Component{
        :<></>}          
             <div className="p1">
                 <div className="p2">
-                    <div className="logo">Reddit</div>
+                    <div className="logo">DMForum</div>
         
                 </div>
                 <div className ={this.state.onfocus?"inputwrapperfocus":"inputwrapper"}>
